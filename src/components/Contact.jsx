@@ -132,13 +132,23 @@ function MyComponent() {
           </GridItem>
           <GridItem className="right">
             <ContactInfo>
-              <h3>ADDRESS</h3>
-              <p>123 Anywhere St., Any City ST 12345</p>
+              <h3>LOKACIJA</h3>
+              <p>Put Brdo 4</p>
+              <p>Mihotići</p>
+              <p>51211</p>
+              <p>Matulji</p>
 
-              <h3>PHONE</h3>
-              <p>(123) 456-7890</p>
+              <h3>RADNO VRIJEME</h3>
+              <p>
+                Po dogovoru ako nas želite posjetiti molim Vas da nas
+                kontaktirate za dogovor.
+              </p>
+
+              <h3>MOBITEL</h3>
+              <p>0955674158 Matea</p>
+              <p>0922567814 Leo</p>
               <h3>EMAIL</h3>
-              <p>hello@reallygreatsite.com</p>
+              <p>make.remake.diy@gmail.com</p>
             </ContactInfo>
             <SocialIcons>
               <h3>SOCIAL</h3>

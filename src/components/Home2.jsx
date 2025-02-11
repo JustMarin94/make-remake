@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import frontpage2 from "./images/home2.jpg";
 import frontpage3 from "./images/home3.jpg";
+import { Typography } from "@mui/material";
 
 const Background = styled.div`
   margin: 0;
@@ -23,8 +24,10 @@ const Container = styled.div`
     padding: 20px 40px;
   }
 `;
-const Title = styled.h1`
-  font-size: 30px;
+/*
+
+const Title = styled.h6`
+  font-size: 10px;
   text-align: left;
   margin-bottom: -10px;
   color: #735e59;
@@ -34,6 +37,7 @@ const Title = styled.h1`
     margin-bottom: 113px;
   }
 `;
+*/
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -69,14 +73,29 @@ function MyComponent() {
         <Container>
           <Grid>
             <GridItem>
-              <Title>
-                Dvoje <br /> zaljubljenika.
-              </Title>
-              <p>
-                Dvoje usko povezanih zaljubljenika u DIY kulturu pretvara
-                <br />
-                staro u novo, ništa u nešto i ideju u stvar.
-              </p>
+              <Typography variant="h3" sx={{ color: "#735e59" }}>
+                Dobro došli u Make Remake, vašu destinaciju za obnovu starog
+                namještaja.
+              </Typography>
+              <br />
+              <Typography variant="body1" sx={{ color: "#735e59" }}>
+                Kod nas svaki komad namještaja ima svoju priču, a mi smo tu da
+                mu udahnemo novi život.
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#735e59" }}>
+                Posvećeni smo obnovi i osvježavanju vaših omiljenih komada
+                namještaja, bilo da su to stolice, stolovi, kredenci ili neki
+                drugi komad.
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#735e59" }}>
+                Sviđa vam se dizajn vašeg namještaja, ali je izgubio sjaj ili mu
+                boja ne odgovara vašem prostoru?
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#735e59" }}>
+                Naša usluga obnove prilagođena je vašim željama i potrebama kako
+                bismo zajedno stvorili savršeni namještaj koji odražava vašu
+                osobnost i stil.
+              </Typography>
             </GridItem>
             <GridItem>
               <img src={frontpage2} alt="slika1" />
